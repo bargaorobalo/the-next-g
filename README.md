@@ -1,4 +1,6 @@
-the-next-g
+#the-next-g
 ==========
+Better approach:
 
-This will be the next generation of my personal home page (improve it). RESTFull nodeJS, angularJS to interact with, but firstly Jekyll
+Jekyll to use as a blog
+NodeJS to monitoring github account (using API)
