@@ -1,4 +1,4 @@
-#the-next-g
+#the-next-g [![Build Status](https://travis-ci.org/bargaorobalo/the-next-g.png?branch=master)](https://travis-ci.org/bargaorobalo/the-next-g)
 ==========
 Better approach:
 
