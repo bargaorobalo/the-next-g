@@ -1,6 +1,6 @@
 {
   "name": "the-next-g",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This is the new generation of my personal home page",
   "main": "index.html",
   "scripts": {
