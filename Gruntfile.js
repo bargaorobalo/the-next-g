@@ -77,5 +77,5 @@ module.exports = function(grunt) {
     //register tasks
     grunt.registerTask('startServer', ['connect:server']);
     grunt.registerTask('css', ['compass:dev', 'csslint:strict']);
-    grunt.registerTask('start', ['startServer', 'watch']);
+    grunt.registerTask('start', ['css','startServer', 'watch']);
 }

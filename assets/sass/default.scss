@@ -1,4 +1,17 @@
-@import "compass/reset";
-@import "compass/css3/text-shadow";
 
 @import "button";
+
+#landing-page {
+	background: url('../img/bg-blurred.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/bg-blurred.jpg", sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg-blurred.jpg', sizingMethod='scale')";
+}
+
+.delete-text {
+	text-decoration: line-through;
+}
