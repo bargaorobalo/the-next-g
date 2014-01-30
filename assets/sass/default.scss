@@ -26,7 +26,7 @@ body {
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg-blurred.jpg', sizingMethod='scale')";
 }
 
-.container{
+.container {
   height:100%;
   display:table;
   width: 100%;
@@ -35,7 +35,27 @@ body {
  
 .row {height: 100%; display:table-cell; vertical-align: middle;}
 
+.photo {
+  text-align:center;
+}
 
+.whoami {
+  color: #fff;
+}
+.whoami h1{
+  font-size: 1.4em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.whoami h1 del{
+  font-weight: 100;
+}
+.whoami h2{
+  font-size: 1.2em;
+  font-weight: 100;
+  margin: 6px 2px;
+
+}
 .delete-text {
 	text-decoration: line-through;
 }
