@@ -80,13 +80,13 @@ body {
 }
 
 .github-talk a{
-  background: $github;
+  background: $github url('../img/github.png') no-repeat center center;
 }
 
 .twitter-talk a{
-  background: $twitter;
+  background: $twitter url('../img/twitter.png') no-repeat center center;
 }
 
 .slideshare-talk a{
-  background: $slideshare;
+  background: $slideshare url('../img/slideshare.png') no-repeat center center;
 }
