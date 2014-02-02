@@ -1,0 +1,7 @@
+node_modules/
+.sass-cache/
+assets/bootstrap/
+assets/js/default.min.js
+assets/css/
+assets/jquery/
+

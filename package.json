@@ -1,0 +1,29 @@
+{
+  "name": "the-next-g",
+  "version": "0.0.1",
+  "description": "This is the new generation of my personal home page",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bargaorobalo/the-next-g.git"
+  },
+  "keywords": [
+    "Front",
+    "end",
+    "developer"
+  ],
+  "author": "Bargão Robalo [bargaorobalo@gmail.com]",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/bargaorobalo/the-next-g/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-compass": "~0.6.0",
+    "grunt-contrib-csslint": "~0.1.2",
+    "grunt-contrib-uglify": "~0.2.1",
+    "grunt-contrib-jshint": "~0.5.4",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}

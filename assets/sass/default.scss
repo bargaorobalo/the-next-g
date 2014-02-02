@@ -1,0 +1,92 @@
+$github: #34495e;
+$slideshare: #009999;
+$twitter: #3498db;
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+@import "button";
+
+.landing-page {
+	background: #93a6b4 url('../img/bg-blurred.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/bg-blurred.jpg", sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg-blurred.jpg', sizingMethod='scale')";
+}
+
+.container {
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+ 
+.row {height: 100%; display:table-cell; vertical-align: middle;}
+
+.whoami {
+  color: #fff;
+}
+
+.whoami .name {
+  font-size: 1.4em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.delete-text {
+  text-decoration: line-through;
+  font-weight: 100;
+}
+
+.whoami .pro {
+  font-size: 1.2em;
+  font-weight: 100;
+  margin: 6px 2px;
+
+}
+
+.talk-to-me {
+  margin-top:30px;
+}
+
+.talk-to-me div div {
+  padding: 0;
+}
+
+.talk-to-me div div a {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.talk-to-me div div a span {
+  display: none;
+}
+
+.github-talk a{
+  background: $github url('../img/github.png') no-repeat center center;
+}
+
+.twitter-talk a{
+  background: $twitter url('../img/twitter.png') no-repeat center center;
+}
+
+.slideshare-talk a{
+  background: $slideshare url('../img/slideshare.png') no-repeat center center;
+}

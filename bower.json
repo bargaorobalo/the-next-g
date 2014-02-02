@@ -1,0 +1,25 @@
+{
+  "name": "the-next-g",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bargaorobalo/the-next-g",
+  "authors": [
+    "Helder Bargão Robalo <bargaorobalo@gmail.com>"
+  ],
+  "description": "This is the new generation of my personal home page",
+  "main": "index.html",
+  "keywords": [
+    "frontend",
+    "developer"
+  ],
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3"
+  }
+}
