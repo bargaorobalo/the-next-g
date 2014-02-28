@@ -1,2 +1,1 @@
-worker: npm install
-web: grunt server
+web: npm install
