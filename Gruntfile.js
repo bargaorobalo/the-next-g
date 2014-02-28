@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     	connect: {
     		server: {
     			options: {
-    				port: 80,
+    				port: 9001,
     				hostname: '0.0.0.0',
                     open: true
     			}
