@@ -1,6 +1,13 @@
 #the-next-g [![Build Status](https://travis-ci.org/bargaorobalo/the-next-g.png?branch=master)](https://travis-ci.org/bargaorobalo/the-next-g)
 ==========
-Better approach:
+How to use:
 
-Jekyll(DocPad???) to use as a blog
-NodeJS to monitoring github account (using API)
+git clone https://github.com/bargaorobalo/the-next-g.git
+
+*make sure you have nodejs and npm installed in your environment
+
+npm install
+
+grunt start
+
+Well Done!
