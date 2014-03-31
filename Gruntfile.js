@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     		server: {
     			options: {
     				port: 9001,
-    				hostname: '0.0.0.0',
+    				hostname: '127.0.0.1',
                     open: true
     			}
     		}
@@ -75,7 +75,7 @@ module.exports = function(grunt) {
 
 
     //register tasks
-    grunt.registerTask('startServer', ['connect:server']);
+    grunt.registerTask('startServer', ['connect:server', 'watch']);
     grunt.registerTask('css', ['compass:dev', 'csslint:strict']);
     grunt.registerTask('heroku:production', 'startServer', 'watch');
     grunt.registerTask('start', ['css','startServer', 'watch']);
