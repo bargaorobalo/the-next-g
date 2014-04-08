@@ -1,6 +1,7 @@
 $github: #34495e;
 $slideshare: #009999;
 $twitter: #3498db;
+$portfolio: #27ae60;
 
 html {
   height: 100%;
@@ -79,14 +80,18 @@ body {
   display: none;
 }
 
-.github-talk a{
+.github-talk a {
   background: $github url('../img/github.png') no-repeat center center;
 }
 
-.twitter-talk a{
+.twitter-talk a {
   background: $twitter url('../img/twitter.png') no-repeat center center;
 }
 
-.slideshare-talk a{
+.slideshare-talk a {
   background: $slideshare url('../img/slideshare.png') no-repeat center center;
+}
+
+.portfolio-access a {
+  background: $portfolio url('../img/portfolio.png') no-repeat center center;
 }
