@@ -80,6 +80,10 @@ body {
   display: none;
 }
 
+.talk-to-me div div a:hover {
+  text-decoration: none;
+}
+
 .github-talk a {
   background: $github url('../img/github.png') no-repeat center center;
 }
@@ -93,5 +97,16 @@ body {
 }
 
 .portfolio-access a {
-  background: $portfolio url('../img/portfolio.png') no-repeat center center;
+  background: $portfolio url('../img/portfolio.png') no-repeat center 3px;
 }
+
+.talk-to-me div div.portfolio-access a span {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 64px;
+  font-size: 21px;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+}
+
